@@ -5,67 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a href="WebStudio">WebStudio</a>
-      <nav>
-        <ul>
-          <li>
-            <a href="">Студія</a>
+      <a class="logo link" href="WebStudio">WebStudio</a>
+      <nav class="navigation">
+        <ul class="nav-list list">
+          <li class="nav-list-item">
+            <a class="nav-list-link link" href="">Студія</a>
           </li>
-          <li>
-            <a href="">Портфоліо</a>
+          <li class="nav-list-item">
+            <a class="nav-list-link link" href="">Портфоліо</a>
           </li>
-          <li>
-            <a href="">Контакти</a>
+          <li class="nav-list-item">
+            <a class="nav-list-link link" href="">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li>
+          <a class="contact-mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="contact-number link" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
       <section>
-        <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="modal-btn" type="button">Замовити послугу</button>
       </section>
       <section>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="feature">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="feature">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="feature-title">ПЛАНУВАННЯ</h3>
+            <p class="feature">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="feature">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
           </li>
         </ul>
       </section>
+      <!-- ABOUT -->
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+        <h2 class="secondary-title">Чим ми займаємося</h2>
+        <ul class="list">
           <li>
             <img
               src="./foto/img1.jpg"
@@ -87,9 +103,10 @@
           </li>
         </ul>
       </section>
+      <!-- TEAM -->
       <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="secondary-title">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./foto/foto1.jpg"
@@ -97,19 +114,19 @@
               width="270"
               height="260"
             />
-            <h3>Ігор Дем'яненко <br /></h3>
-            <p>Product Designer</p>
+            <h3 class="name">Ігор Дем'яненко <br /></h3>
+            <p class="position">Product Designer</p>
           </li>
 
           <li>
             <img
               src="./foto/foto2.jpg"
-              alt="фото розробникі"
+              alt="фото розробників"
               width="270"
               height="260"
             />
-            <h3>Ольга Рєпіна <br /></h3>
-            <p>Frontend Developer</p>
+            <h3 class="name">Ольга Рєпіна <br /></h3>
+            <p class="position">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -118,8 +135,8 @@
               width="270"
               height="260"
             />
-            <h3>Микола Тарасов <br /></h3>
-            <p>Marketing</p>
+            <h3 class="name">Микола Тарасов <br /></h3>
+            <p class="position">Marketing</p>
           </li>
           <li>
             <img
@@ -128,20 +145,26 @@
               width="270"
               height="260"
             />
-            <h3>Михайло Єрмаков <br /></h3>
-            <p>UI Designer</p>
+            <h3 class="name">Михайло Єрмаков <br /></h3>
+            <p class="position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <a href="WebStudio">WebStudio</a>
+      <a class="logo link" href="WebStudio">WebStudio</a>
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <p class="adress">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="list">
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contact-mail-footer link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-number-footer link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </address>
