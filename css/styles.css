@@ -23,8 +23,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
 
   color: #2196f3;
@@ -100,7 +98,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -122,8 +119,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
-
+  
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -133,8 +129,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
-
+  
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -164,13 +159,10 @@ body {
 }
 /* PORTFOLIO */
 .title-filtres {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /* identical to box height, or 162% */
-
+  
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -189,7 +181,7 @@ body {
 }
 .modal-btn-filtres:hover,
 .modal-btn-filtres:focus {
-  background: #2196f3;
+  background: #2196f3; cursor: pointer;
 }
 /* PROJECTS */
 .title-project {
